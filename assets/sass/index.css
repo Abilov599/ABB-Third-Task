@@ -141,6 +141,17 @@ body main .top-section .row .box.blue {
   color: #fff;
   background-color: #18cfab;
 }
+body main .top-section .our-services {
+  padding: 83px 0;
+}
+body main .top-section .our-services .container div h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #4e4e4e;
+}
 body footer {
   background: #22353f;
   text-align: center;

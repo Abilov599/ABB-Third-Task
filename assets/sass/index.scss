@@ -146,15 +146,17 @@ body {
         }
       }
       .our-services {
+        padding: 83px 0;
         .container {
-          text-align: center;
-          h2 {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 40px;
-            color: #4e4e4e;
-            
+          div {
+            h2 {
+              text-align: center;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 36px;
+              line-height: 40px;
+              color: #4e4e4e;
+            }
           }
         }
       }
