@@ -111,10 +111,20 @@ body {
   main {
   }
   footer {
+    background: #22353f;
     text-align: center;
     padding: 48px 0;
-    span {
-      color: #18cfab;
+    .container {
+      p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+        color: #aeaeae;
+        span {
+          color: #18cfab;
+        }
+      }
     }
   }
 }

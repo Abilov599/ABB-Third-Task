@@ -105,9 +105,17 @@ body header .welcome .btn-group button.color-blue {
   background-color: #00cbf6;
 }
 body footer {
+  background: #22353f;
   text-align: center;
   padding: 48px 0;
 }
-body footer span {
+body footer .container p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #aeaeae;
+}
+body footer .container p span {
   color: #18cfab;
 }/*# sourceMappingURL=index.css.map */
