@@ -113,6 +113,34 @@ body header .welcome .btn-group button.color-blue:hover {
   background-color: #ffffff;
   color: #00cbf6;
 }
+body main .top-section {
+  padding: 20px 0;
+}
+body main .top-section .row {
+  display: flex;
+  width: 100%;
+}
+body main .top-section .row .box {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 100px 80px;
+}
+body main .top-section .row .box img {
+  margin-bottom: 58px;
+}
+body main .top-section .row .box.dark {
+  color: #18cfab;
+  background-color: #1c2a33;
+}
+body main .top-section .row .box.blue {
+  color: #fff;
+  background-color: #18cfab;
+}
 body footer {
   background: #22353f;
   text-align: center;

@@ -118,6 +118,34 @@ body {
     }
   }
   main {
+    .top-section {
+      padding: 20px 0;
+      .row {
+        display: flex;
+        width: 100%;
+        .box {
+          text-align: center;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          width: 100%;
+          line-height: 24px;
+          text-transform: uppercase;
+          padding: 100px 80px;
+          img {
+            margin-bottom: 58px;
+          }
+          &.dark {
+            color: #18cfab;
+            background-color: #1c2a33;
+          }
+          &.blue {
+            color: #fff;
+            background-color: #18cfab;
+          }
+        }
+      }
+    }
   }
   footer {
     background: #22353f;
