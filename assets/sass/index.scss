@@ -87,6 +87,7 @@ body {
         justify-content: center;
         gap: 26px;
         button {
+          transition: all 0.5s;
           cursor: pointer;
           border: none;
           border-radius: 5px;
@@ -100,8 +101,16 @@ body {
           color: #ffffff;
           &.color-aqua {
             background-color: #18cfab;
+            &:hover {
+              color: #18cfab;
+              background-color: #ffffff;
+            }
           }
           &.color-blue {
+            &:hover {
+              background-color: #ffffff;
+              color: #00cbf6;
+            }
             background-color: #00cbf6;
           }
         }

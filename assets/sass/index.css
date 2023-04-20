@@ -86,6 +86,7 @@ body header .welcome .btn-group {
   gap: 26px;
 }
 body header .welcome .btn-group button {
+  transition: all 0.5s;
   cursor: pointer;
   border: none;
   border-radius: 5px;
@@ -101,8 +102,16 @@ body header .welcome .btn-group button {
 body header .welcome .btn-group button.color-aqua {
   background-color: #18cfab;
 }
+body header .welcome .btn-group button.color-aqua:hover {
+  color: #18cfab;
+  background-color: #ffffff;
+}
 body header .welcome .btn-group button.color-blue {
   background-color: #00cbf6;
+}
+body header .welcome .btn-group button.color-blue:hover {
+  background-color: #ffffff;
+  color: #00cbf6;
 }
 body footer {
   background: #22353f;
