@@ -1,0 +1,115 @@
+body {
+  header {
+    background-image: url("../images/bg/BG.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    nav {
+      background: rgba(94, 93, 88, 0.6);
+      .container {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        .logo {
+          width: 100%;
+        }
+        .navigation {
+          ul {
+            display: flex;
+            gap: 21px;
+            align-items: center;
+            li {
+              padding: 48.5px 0;
+              border-bottom: 3px solid transparent;
+              &:hover {
+                border-bottom: 3px solid #18cfab;
+                a {
+                  color: #18cfab;
+                }
+              }
+              a {
+                color: rgba(255, 255, 255, 0.6);
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                text-transform: uppercase;
+              }
+              i {
+                color: rgba(255, 255, 255, 0.6);
+              }
+            }
+          }
+        }
+      }
+    }
+    .welcome {
+      padding: 264px 0;
+      .text {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        margin-bottom: 134px;
+        h3 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 35px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #ffffff;
+          span {
+            color: #18cfab;
+          }
+        }
+        h1 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 78px;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+        h5 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 34px;
+          color: #d4d4d4;
+        }
+      }
+      .btn-group {
+        display: flex;
+        justify-content: center;
+        gap: 26px;
+        button {
+          cursor: pointer;
+          border: none;
+          border-radius: 5px;
+          padding: 16px 17px;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 32px;
+          text-transform: uppercase;
+          color: #ffffff;
+          &.color-aqua {
+            background-color: #18cfab;
+          }
+          &.color-blue {
+            background-color: #00cbf6;
+          }
+        }
+      }
+    }
+  }
+  main {
+  }
+  footer {
+  }
+}
