@@ -103,4 +103,7 @@ body header .welcome .btn-group button.color-aqua {
 }
 body header .welcome .btn-group button.color-blue {
   background-color: #00cbf6;
+}
+body footer {
+  padding: 48px 0;
 }/*# sourceMappingURL=index.css.map */
