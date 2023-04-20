@@ -105,5 +105,9 @@ body header .welcome .btn-group button.color-blue {
   background-color: #00cbf6;
 }
 body footer {
+  text-align: center;
   padding: 48px 0;
+}
+body footer span {
+  color: #18cfab;
 }/*# sourceMappingURL=index.css.map */
